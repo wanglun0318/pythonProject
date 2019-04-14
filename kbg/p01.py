@@ -13,6 +13,7 @@ def sayHello():
 
 
 
+stu = Student()
 
 
 
