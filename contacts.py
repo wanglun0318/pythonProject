@@ -7,6 +7,7 @@ print("|--- 4：退出通讯录程序  ---|")
 contacts = dict()
 instruct = int(input("请输入相关指令代码："))
 
+
 def con(instruct):
     if instruct == 1:
         print(contacts)
