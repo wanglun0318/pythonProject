@@ -1,20 +1,14 @@
-class Rectangle:
-    length = 5
-    width = 4
-
-    def setRect(self):
-        print("请输入矩形的长和宽....")
-        self.length = format(input("长："))
-        self.width = format(input("宽："))
-
-    def getRect(self):
-        print("这个矩形的长是：{0}，宽是：{1}".format(self.length, self.width))
-
-    def getAres(self):
-        return int(self.length) * int(self.width)
+class Nstr(int):
+    def __new__(cls, arg=0):
+        if isinstance(arg, str):
+            total = 0
+            for each in arg:
+                total += ord(each)
+            arg = total
+        print("11111")
+        return int.__new__(cls, arg)
 
 
-a = Rectangle()
-a.setRect()
-a.getRect()
-print("这个长方形的面积是：{0}".format(a.getAres()))
+a = Nstr("qwert")
+b = Nstr("asdfg")
+print(a+b)

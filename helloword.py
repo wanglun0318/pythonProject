@@ -33,7 +33,7 @@ guess = int_input("请输入一个整数：")
 
 judge()
 
-while  guess != secret:
+while guess != secret:
     guess = int_input("请输入一个整数：")
     if guess == secret:
         print("恭喜你猜对了，看来咱俩真是心有灵犀！！！")

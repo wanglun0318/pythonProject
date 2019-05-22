@@ -81,9 +81,11 @@ for i in range(10):
     fish.append(new_fish)
 
 while True:
+    # not 0 则为True，not 1 则False
     if not len(fish):
         print("鱼儿都吃完了，游戏结束！")
         break
+
     if not turtle.power:
         print("乌龟体力耗尽，挂掉了！")
         break
@@ -99,3 +101,4 @@ while True:
             turtle.eat()
             fish.remove(each_fish)
             print("有一条鱼儿被吃掉了...........")
+
