@@ -1,6 +1,7 @@
 import time as t
 # 记录指定变量的读取和修改操作，并将记录一级触发时间保存到文件
 
+
 class MyDes:
     def __init__(self, name=None, value=None):
         self.present = 0
