@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fafe5da-dc7d-4617-8aee-47aa234c0102" name="Default Changelist" comment="inherit">
-      <change afterPath="$PROJECT_DIR$/mageic/countlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mageic/isprime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mageic/iteratortest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptilia/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptilia/acat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptilia/agency.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptilia/agencytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptilia/reptiletest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reptilia/translation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mageic/maginctest.py" beforeDir="false" afterPath="$PROJECT_DIR$/mageic/maginctest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,20 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reptilia/agencytest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/oop/Lib/http/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="1052" selection-start-line="1052" selection-end-line="1052" />
+            <state relative-caret-position="432">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -119,7 +101,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
+    <option name="x" value="301" />
     <option name="width" value="1400" />
     <option name="height" value="981" />
   </component>
@@ -130,22 +112,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
-              <item name="reptilia" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,7 +323,7 @@
       <workItem from="1559560514026" duration="2109000" />
       <workItem from="1559990916010" duration="4263000" />
       <workItem from="1560169547791" duration="3405000" />
-      <workItem from="1560859086453" duration="4796000" />
+      <workItem from="1560859086453" duration="5364000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1554470780054</created>
@@ -449,11 +416,32 @@
       <option name="project" value="LOCAL" />
       <updated>1558671102970</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="inherit">
+      <created>1560863982702</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1560863982702</updated>
+    </task>
+    <task id="LOCAL-00015" summary="inherit">
+      <created>1560864053207</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1560864053208</updated>
+    </task>
+    <task id="LOCAL-00016" summary="inherit">
+      <created>1560864156612</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560864156612</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173287000" />
+    <option name="totallyTimeSpent" value="173855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,20 +453,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="0" width="1400" height="981" extended-state="0" />
+    <frame x="854" y="59" width="1400" height="981" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.33432835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.33432835" />
       <window_info id="Structure" order="1" sideWeight="0.50087875" side_tool="true" weight="0.2738806" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3926887" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3926887" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902467" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32900944" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295964" />
       <window_info anchor="bottom" id="Terminal" order="11" />
@@ -883,17 +871,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reptilia/agencytest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/oop/Lib/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="1052" selection-start-line="1052" selection-end-line="1052" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reptilia/agencytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
