@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/sqlPK/sqlSelect.py" line="0" />
-    <bookmark url="file://$PROJECT_DIR$/wxPython/gridline.py" line="111" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="3fafe5da-dc7d-4617-8aee-47aa234c0102" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wxPython/gridline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxPython/menubar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wxPython/toolBar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/hello.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/mythread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/mythread1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/mythread2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/mythread3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/threadnew.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,15 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wxPython/toolBar.py">
+        <entry file="file://$PROJECT_DIR$/threadingtest/mythread3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-              <folding>
-                <element signature="e#24#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="118">
+              <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -46,15 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/helloword.py" />
-        <option value="$PROJECT_DIR$/mageic/maginc.md" />
-        <option value="$PROJECT_DIR$/mageic/mydes.py" />
-        <option value="$PROJECT_DIR$/mageic/maginctest.py" />
-        <option value="$PROJECT_DIR$/mageic/countlist.py" />
-        <option value="$PROJECT_DIR$/mageic/iteratortest.py" />
-        <option value="$PROJECT_DIR$/mageic/isprime.py" />
-        <option value="$PROJECT_DIR$/reptilia/reptiletest.py" />
-        <option value="$PROJECT_DIR$/reptilia/acat.py" />
         <option value="$PROJECT_DIR$/reptilia/translation.py" />
         <option value="$PROJECT_DIR$/timer/agency.md" />
         <option value="$PROJECT_DIR$/reptilia/agency.md" />
@@ -97,6 +85,15 @@
         <option value="$PROJECT_DIR$/wxPython/gridline.py" />
         <option value="$PROJECT_DIR$/wxPython/menubar.py" />
         <option value="$PROJECT_DIR$/wxPython/toolBar.py" />
+        <option value="$PROJECT_DIR$/threading.py" />
+        <option value="$PROJECT_DIR$/threading/threadbody.py" />
+        <option value="$PROJECT_DIR$/threading/hello.py" />
+        <option value="$PROJECT_DIR$/threadingtest/hello.py" />
+        <option value="$PROJECT_DIR$/threadingtest/threadnew.py" />
+        <option value="$PROJECT_DIR$/threadingtest/mythread.py" />
+        <option value="$PROJECT_DIR$/threadingtest/mythread1.py" />
+        <option value="$PROJECT_DIR$/threadingtest/mythread2.py" />
+        <option value="$PROJECT_DIR$/threadingtest/mythread3.py" />
       </list>
     </option>
   </component>
@@ -125,7 +122,7 @@
             <path>
               <item name="pythonProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonProject" type="462c0819:PsiDirectoryNode" />
-              <item name="wxPython" type="462c0819:PsiDirectoryNode" />
+              <item name="threadingtest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -155,11 +152,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonProject\threadingtest" />
       <recent name="D:\pythonProject\udp" />
       <recent name="D:\pythonProject\tcp" />
       <recent name="D:\pythonProject\reptilia" />
       <recent name="D:\pythonProject\mageic" />
-      <recent name="D:\pythonProject\timer" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,8 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.toolBar">
-    <configuration name="ch19.8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mythread3">
+    <configuration name="mythread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,56 +180,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19/ch19.8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch19.9" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19/ch19.9.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gridline" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wxPython" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threadingtest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wxPython/gridline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/mythread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +194,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="menubar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mythread1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,12 +202,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wxPython" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threadingtest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wxPython/menubar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/mythread1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="toolBar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mythread2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,12 +224,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/wxPython" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threadingtest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wxPython/toolBar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/mythread2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mythread3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threadingtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/mythread3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="threadnew" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threadingtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/threadnew.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.toolBar" />
-        <item itemvalue="Python.ch19.9" />
-        <item itemvalue="Python.menubar" />
-        <item itemvalue="Python.ch19.8" />
-        <item itemvalue="Python.gridline" />
+        <item itemvalue="Python.mythread3" />
+        <item itemvalue="Python.mythread2" />
+        <item itemvalue="Python.mythread1" />
+        <item itemvalue="Python.mythread" />
+        <item itemvalue="Python.threadnew" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +373,11 @@
       <workItem from="1569151911624" duration="2684000" />
       <workItem from="1569238433734" duration="3355000" />
       <workItem from="1569411725183" duration="3081000" />
-      <workItem from="1569758195806" duration="2834000" />
+      <workItem from="1569758195806" duration="3057000" />
+      <workItem from="1570929958864" duration="1465000" />
+      <workItem from="1570960250252" duration="3076000" />
+      <workItem from="1571307092106" duration="2076000" />
+      <workItem from="1571572354528" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1554470780054</created>
@@ -588,11 +589,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569154587736</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="分割窗口">
+      <created>1569761264835</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1569761264835</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260626000" />
+    <option name="totallyTimeSpent" value="268962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,16 +613,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.21108742" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.23294243" />
       <window_info id="Structure" order="1" sideWeight="0.50087875" side_tool="true" weight="0.2738806" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.7679104" visible="true" weight="0.27410617" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.7679104" visible="true" weight="0.5915493" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -685,6 +692,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$maginctest.coverage" NAME="maginctest Coverage Results" MODIFIED="1558668393281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mageic" />
     <SUITE FILE_PATH="coverage/pythonProject$ch19_6_1.coverage" NAME="ch19.6.1 Coverage Results" MODIFIED="1568636379285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19" />
     <SUITE FILE_PATH="coverage/pythonProject$test.coverage" NAME="test Coverage Results" MODIFIED="1562670118880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rexpression" />
+    <SUITE FILE_PATH="coverage/pythonProject$mythread.coverage" NAME="mythread Coverage Results" MODIFIED="1570963299189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$countlist.coverage" NAME="countlist Coverage Results" MODIFIED="1559040474248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mageic" />
     <SUITE FILE_PATH="coverage/pythonProject$checkbox.coverage" NAME="checkbox Coverage Results" MODIFIED="1568712773738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$listbox.coverage" NAME="listbox Coverage Results" MODIFIED="1568716575287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
@@ -697,8 +705,10 @@
     <SUITE FILE_PATH="coverage/pythonProject$sqlInsert.coverage" NAME="sqlInsert Coverage Results" MODIFIED="1567171156840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlPK" />
     <SUITE FILE_PATH="coverage/pythonProject$boxsizer.coverage" NAME="boxsizer Coverage Results" MODIFIED="1568366320764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$01.coverage" NAME="01 Coverage Results" MODIFIED="1554558437350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
-    <SUITE FILE_PATH="coverage/pythonProject$hello.coverage" NAME="hello Coverage Results" MODIFIED="1567168619546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlPK" />
+    <SUITE FILE_PATH="coverage/pythonProject$hello.coverage" NAME="hello Coverage Results" MODIFIED="1570960963006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
     <SUITE FILE_PATH="coverage/pythonProject$p01.coverage" NAME="p01 Coverage Results" MODIFIED="1555165371536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kbg" />
+    <SUITE FILE_PATH="coverage/pythonProject$ch20_3_1.coverage" NAME="ch20.3.1 Coverage Results" MODIFIED="1570962131845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter20" />
+    <SUITE FILE_PATH="coverage/pythonProject$threadnew.coverage" NAME="threadnew Coverage Results" MODIFIED="1570962190524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$toolBar.coverage" NAME="toolBar Coverage Results" MODIFIED="1569761245327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$mytimer1.coverage" NAME="mytimer1 Coverage Results" MODIFIED="1558520665681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/timer" />
     <SUITE FILE_PATH="coverage/pythonProject$searchfile.coverage" NAME="searchfile Coverage Results" MODIFIED="1557148819122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ostest" />
@@ -707,6 +717,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$upload_server.coverage" NAME="upload_server Coverage Results" MODIFIED="1567687312007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/udp" />
     <SUITE FILE_PATH="coverage/pythonProject$splitterwindow.coverage" NAME="splitterwindow Coverage Results" MODIFIED="1569063427825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$ch19_7_3_2.coverage" NAME="ch19.7.3-2 Coverage Results" MODIFIED="1569241549019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19" />
+    <SUITE FILE_PATH="coverage/pythonProject$mythread1.coverage" NAME="mythread1 Coverage Results" MODIFIED="1571307693306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$practice.coverage" NAME="practice Coverage Results" MODIFIED="1557919401568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$onClike.coverage" NAME="onClike Coverage Results" MODIFIED="1568085141415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$t02.coverage" NAME="t02 Coverage Results" MODIFIED="1555247729732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testerror" />
@@ -718,6 +729,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$allfiles.coverage" NAME="allfiles Coverage Results" MODIFIED="1557055516319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$ch19_8.coverage" NAME="ch19.8 Coverage Results" MODIFIED="1569414702129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19" />
     <SUITE FILE_PATH="coverage/pythonProject$vipMovie.coverage" NAME="vipMovie Coverage Results" MODIFIED="1568714472270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject$hello__1_.coverage" NAME="hello (1) Coverage Results" MODIFIED="1570961548743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1567593953948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tcp" />
     <SUITE FILE_PATH="coverage/pythonProject$magictest.coverage" NAME="magictest Coverage Results" MODIFIED="1558580279319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$ch19_9.coverage" NAME="ch19.9 Coverage Results" MODIFIED="1569761214727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19" />
@@ -737,15 +749,18 @@
     <SUITE FILE_PATH="coverage/pythonProject$turtlefish.coverage" NAME="turtlefish Coverage Results" MODIFIED="1557654601623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/pythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1567593944872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tcp" />
     <SUITE FILE_PATH="coverage/pythonProject$t01.coverage" NAME="t01 Coverage Results" MODIFIED="1555247226224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testerror" />
+    <SUITE FILE_PATH="coverage/pythonProject$mythread3.coverage" NAME="mythread3 Coverage Results" MODIFIED="1571573911802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$inherit02.coverage" NAME="inherit02 Coverage Results" MODIFIED="1554800452841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/pythonProject$helloword.coverage" NAME="helloword Coverage Results" MODIFIED="1558434853774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$gridsizer.coverage" NAME="gridsizer Coverage Results" MODIFIED="1568461499649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$contentshow.coverage" NAME="contentshow Coverage Results" MODIFIED="1556677912459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$noSQL.coverage" NAME="noSQL Coverage Results" MODIFIED="1567340112696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlPK" />
+    <SUITE FILE_PATH="coverage/pythonProject$threadbody.coverage" NAME="threadbody Coverage Results" MODIFIED="1570960363938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threading" />
     <SUITE FILE_PATH="coverage/pythonProject$mytimer.coverage" NAME="mytimer Coverage Results" MODIFIED="1558436845635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$menubar.coverage" NAME="menubar Coverage Results" MODIFIED="1569414776189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$sqlUpdate.coverage" NAME="sqlUpdate Coverage Results" MODIFIED="1567253177080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlPK" />
     <SUITE FILE_PATH="coverage/pythonProject$staticBox.coverage" NAME="staticBox Coverage Results" MODIFIED="1568457978793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
+    <SUITE FILE_PATH="coverage/pythonProject$mythread2.coverage" NAME="mythread2 Coverage Results" MODIFIED="1571308563519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$p02.coverage" NAME="p02 Coverage Results" MODIFIED="1555242034130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kbg" />
     <SUITE FILE_PATH="coverage/pythonProject$translation.coverage" NAME="translation Coverage Results" MODIFIED="1560860690038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptilia" />
     <SUITE FILE_PATH="coverage/pythonProject$textctrl.coverage" NAME="textctrl Coverage Results" MODIFIED="1568710285950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
@@ -762,56 +777,6 @@
     <SUITE FILE_PATH="coverage/pythonProject$gridline.coverage" NAME="gridline Coverage Results" MODIFIED="1569411758909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/timer/mytimer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testerror/t01.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ostest/vediolist.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mageic/countlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/inherit02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1790" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inherit.patch">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/something.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dialogue.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dialogue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contentshow.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/contacts.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -873,13 +838,6 @@
             <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="1740" column="10" lean-forward="true" selection-start-line="1740" selection-start-column="10" selection-end-line="1740" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1092,13 +1050,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19/ch19.9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading.py" />
     <entry file="file://$PROJECT_DIR$/wxPython/toolBar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="69" column="18" lean-forward="true" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
+        <state relative-caret-position="-2404">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading/threadbody.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingtest/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter20/ch20.3.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#45#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingtest/threadnew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#17#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingtest/mythread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#16#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingtest/mythread1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="e#16#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingtest/mythread2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter20/ch20.5.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1542">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingtest/mythread3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
         </state>
       </provider>
     </entry>
