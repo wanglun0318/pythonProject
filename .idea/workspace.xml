@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fafe5da-dc7d-4617-8aee-47aa234c0102" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/threadingtest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadingtest/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadingtest/mythread.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadingtest/mythread1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadingtest/mythread2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadingtest/mythread3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threadingtest/threadnew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threadingtest/conditiontest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/threadingtest/mythread3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+            <state relative-caret-position="420">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/threadingtest/conditiontest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#17#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/reptilia/translation.py" />
         <option value="$PROJECT_DIR$/timer/agency.md" />
         <option value="$PROJECT_DIR$/reptilia/agency.md" />
         <option value="$PROJECT_DIR$/reptilia/aatest.py" />
@@ -94,6 +99,7 @@
         <option value="$PROJECT_DIR$/threadingtest/mythread1.py" />
         <option value="$PROJECT_DIR$/threadingtest/mythread2.py" />
         <option value="$PROJECT_DIR$/threadingtest/mythread3.py" />
+        <option value="$PROJECT_DIR$/threadingtest/conditiontest.py" />
       </list>
     </option>
   </component>
@@ -171,8 +177,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mythread3">
-    <configuration name="mythread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.eventtest">
+    <configuration name="conditiontest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,7 +191,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/mythread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/conditiontest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eventtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threadingtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/eventtest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,35 +288,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threadnew" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threadingtest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threadingtest/threadnew.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.eventtest" />
+        <item itemvalue="Python.conditiontest" />
         <item itemvalue="Python.mythread3" />
         <item itemvalue="Python.mythread2" />
         <item itemvalue="Python.mythread1" />
-        <item itemvalue="Python.mythread" />
-        <item itemvalue="Python.threadnew" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +383,8 @@
       <workItem from="1570929958864" duration="1465000" />
       <workItem from="1570960250252" duration="3076000" />
       <workItem from="1571307092106" duration="2076000" />
-      <workItem from="1571572354528" duration="1496000" />
+      <workItem from="1571572354528" duration="1675000" />
+      <workItem from="1571740792141" duration="2957000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1554470780054</created>
@@ -596,11 +603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1569761264835</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="分割窗口">
+      <created>1571573978230</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1571573978230</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268962000" />
+    <option name="totallyTimeSpent" value="272098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,14 +628,14 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.23294243" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.23667377" />
       <window_info id="Structure" order="1" sideWeight="0.50087875" side_tool="true" weight="0.2738806" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3296582" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32827735" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.7679104" visible="true" weight="0.5915493" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.7679104" visible="true" weight="0.19393283" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -724,6 +738,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$flexgrid.coverage" NAME="flexgrid Coverage Results" MODIFIED="1568632050066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
     <SUITE FILE_PATH="coverage/pythonProject$upload_client.coverage" NAME="upload_client Coverage Results" MODIFIED="1567595526630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tcp" />
     <SUITE FILE_PATH="coverage/pythonProject$iteratortest.coverage" NAME="iteratortest Coverage Results" MODIFIED="1559301249679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mageic" />
+    <SUITE FILE_PATH="coverage/pythonProject$eventtest.coverage" NAME="eventtest Coverage Results" MODIFIED="1571744642868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$reptiletest.coverage" NAME="reptiletest Coverage Results" MODIFIED="1559992090817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/reptilia" />
     <SUITE FILE_PATH="coverage/pythonProject$printpos.coverage" NAME="printpos Coverage Results" MODIFIED="1557295273301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ostest" />
     <SUITE FILE_PATH="coverage/pythonProject$allfiles.coverage" NAME="allfiles Coverage Results" MODIFIED="1557055516319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -731,6 +746,7 @@
     <SUITE FILE_PATH="coverage/pythonProject$vipMovie.coverage" NAME="vipMovie Coverage Results" MODIFIED="1568714472270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$hello__1_.coverage" NAME="hello (1) Coverage Results" MODIFIED="1570961548743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1567593953948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tcp" />
+    <SUITE FILE_PATH="coverage/pythonProject$conditiontest.coverage" NAME="conditiontest Coverage Results" MODIFIED="1571743114701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/threadingtest" />
     <SUITE FILE_PATH="coverage/pythonProject$magictest.coverage" NAME="magictest Coverage Results" MODIFIED="1558580279319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$ch19_9.coverage" NAME="ch19.9 Coverage Results" MODIFIED="1569761214727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../视频/《Python从小白到大牛》源代码/chapter19" />
     <SUITE FILE_PATH="coverage/pythonProject$something.coverage" NAME="something Coverage Results" MODIFIED="1556593770816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -777,12 +793,6 @@
     <SUITE FILE_PATH="coverage/pythonProject$gridline.coverage" NAME="gridline Coverage Results" MODIFIED="1569411758909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wxPython" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/contacts.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/envs/oop/Lib/socket.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3066">
@@ -1149,8 +1159,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/threadingtest/mythread3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="72" column="10" lean-forward="true" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+        <state relative-caret-position="420">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/oop/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threadingtest/conditiontest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#17#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
