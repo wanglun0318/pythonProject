@@ -17,5 +17,6 @@ html = req.read().decode("utf-8")
 print(html)
 target = json.loads(html)
 print(response.headers)
+print(target)
 print("翻译的结果是：{0}".format(target["translateResult"][0][0]["tgt"]))
-
+{'type': 'ZH_CN2EN', 'errorCode': 0, 'elapsedTime': 1, 'translateResult': [[{'src': '爱', 'tgt': 'love'}]]}
